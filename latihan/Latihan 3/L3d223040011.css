@@ -1,9 +1,4 @@
 body {
-  background-color: aqua;
-  font-family: Georgia;
-}
-
-body {
   background-image: url("background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,13 +27,16 @@ p {
   color: black;
 }
 h3 a {
-  color: white;
+  color: crimson;
+  font-variant: small-caps;
 }
 h3 a:hover {
-  color: crimson;
+  color: azure;
 }
 .pesbuk a {
   color: blue;
+  text-decoration: none;
+  font-weight: bold;
 }
 .pesbuk a:hover {
   color: white;
