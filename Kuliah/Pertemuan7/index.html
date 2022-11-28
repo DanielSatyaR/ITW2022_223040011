@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern CSS</title>
+    <style>
+      body {
+        height: 2000px;
+      }
+      .kotak1 {
+        width: 150px;
+        height: 150px;
+        background-color: aqua;
+        margin: auto;
+        border-radius: 50% 0 50% 0;
+        opacity: 1;
+        z-index: 10;
+      }
+      p {
+        position: relative;
+        top: -100px;
+      }
+      .kotak2 {
+        width: 200px;
+        height: 200px;
+        background-color: bisque;
+        margin: auto;
+        border-radius: 50%;
+        box-shadow: 0 0 0 10px red, 0 0 0 20px blueviolet, 0 0 0 30px yellow;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 100px;
+        font-family: Arial;
+        font-size: 100px;
+        color: bisque;
+        text-shadow: 10px 5px 5px rebeccapurple;
+      }
+      .kotak3 {
+        width: 200px;
+        height: 200px;
+        background-color: aquamarine;
+        margin: auto;
+        font-size: 50px;
+        text-align: center;
+        line-height: 200px;
+        border-radius: 25%;
+        transition: 2s;
+      }
+
+      .kotak3:hover {
+        transform: rotate(720deg);
+        background-color: bisque;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak1"></div>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptas
+      qui repellat, alias aspernatur mollitia a doloribus esse iusto praesentium
+      consequatur, sunt sapiente dolore? Similique laborum eligendi sed dolore
+      vel.
+    </p>
+
+    <div class="kotak2"></div>
+
+    <h1>Daniel Satya R</h1>
+
+    <div class="kotak3">1</div>
+  </body>
+</html>
